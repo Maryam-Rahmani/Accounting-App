@@ -8,6 +8,7 @@ import styled from 'styled-components'
 import { LinkStyled } from './../link/index';
 
 const Header = styled.header`
+position: relative;
   top: 0;
   right: 0;
   width: 100%;
@@ -34,19 +35,20 @@ const NavbarContainer = styled.div`
   align-items: stretch;
   flex-direction: row;
   justify-content: end;
+  gap:20px;
   align-items: center;
 `;
 
 const UserLogin = styled.div`
-  position: relative;
+ 
   display: flex;
   z-index: 1010;
   align-items: center;
   flex-direction: row;
-  width: 130px;
+  width: 200px;
   height: 60px;
   border: none;
-  
+  gap:10px;
   align-items: center;
 `;
 

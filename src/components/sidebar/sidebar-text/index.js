@@ -6,14 +6,14 @@ import styled from 'styled-components'
 
 const SidebarParent = styled.div`
   background: #dce7f3;
-  width: 130px;
+  width: 200px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   margin-top: 30px;
   gap: 30px;
-  align-items: center;
+  align-items: start;
 `
 
 const SidebarItem = styled.div`

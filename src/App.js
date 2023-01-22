@@ -1,28 +1,27 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/layout";
-import Home from "./pages/home";
-import Login from "./pages/login";
-import Currency from "./pages/currency";
-import ReportType from "./pages/report-type";
-import Dims from "./pages/dims";
-import AccountType from "./pages/account-type";
-import Ledger from "./pages/ledger";
-import TaxConf from "./pages/tax-conf";
-import FiscalYear from "./pages/fiscal-year";
-import AccConfMenu from "./pages/acc-conf-menu";
-import AccDims from "./pages/acc-dims";
-import AccDocsRows from "./pages/acc-docs-rows";
-import AccDocs from "./pages/acc-docs";
-import AccInputMenu from "./pages/acc-input-menu";
-import AccOutputMenu from "./pages/acc-output-menu";
-import FinAccounts from "./pages/fin-accounts";
-import RootType from "./pages/root-type";
-import NotFound from "./pages/not-found";
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Layout from "./components/layout"
+import Home from "./pages/home"
+import Login from "./pages/login"
+import Currency from "./pages/currency"
+import ReportType from "./pages/report-type"
+import Dims from "./pages/dims"
+import AccountType from "./pages/account-type"
+import Ledger from "./pages/ledger"
+import TaxConf from "./pages/tax-conf"
+import FiscalYear from "./pages/fiscal-year"
+import AccConfMenu from "./pages/acc-conf-menu"
+import AccDims from "./pages/acc-dims"
+import AccDocsRows from "./pages/acc-docs-rows"
+import AccDocs from "./pages/acc-docs"
+import AccInputMenu from "./pages/acc-input-menu"
+import AccOutputMenu from "./pages/acc-output-menu"
+import FinAccounts from "./pages/fin-accounts"
+import RootType from "./pages/root-type"
+import NotFound from "./pages/not-found"
 
 function App() {
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
         <Layout>
           <Routes>
@@ -47,7 +46,7 @@ function App() {
           </Routes>
         </Layout>  
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

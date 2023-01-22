@@ -9,14 +9,14 @@ import styled from 'styled-components';
 
 const SidebarParent = styled.div`
   background: #dce7f3;
-  width: 30px;
-  height: 100%
+  width: 50px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   margin-top: 30px;
   gap: 30px;
-  align-items: center;
+  align-items: start;
 `;
 
 const SidebarItem = styled.div`

@@ -12,22 +12,22 @@ import IconButtonStyled from '../button/icon-button';
 const ContentParent = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: stretch;
   padding-top: 68px !important;
-  height: 1500px ;
   overflow: visible;
-  width: 100%
+  width: 100%;
+
   
 `
 
 const SidebarSwitchBox = styled.div`
   width: ${props => props.visible ?  "20%": "5%"};
-  height: 100% ;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: end;
   background-color: #dce7f3; 
   justify-content: start;
-  padding: 5px;
 
 `
 
@@ -40,6 +40,7 @@ const IosArrowLeftStyled = styled(IosArrowLeft)`
 const IosArrowRightStyled = styled(IosArrowRight)`
   color: #7F96AC;
 `;
+
 
 
 const Layout = ({ children })=> {

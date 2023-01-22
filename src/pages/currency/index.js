@@ -4,18 +4,12 @@ import AddForm from '../../components/table/add-form';
 import Login from '../login';
 
 const CurrencyParent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  padding: 0px;
-  margin-top: 40px;
-  gap: 40px;
-  width: 100%;
-  height: 100%;
-  flex: none;
-  order: 2;
-  flex-grow: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
 `;
 
 const Currency = props => {

@@ -9,15 +9,10 @@ const HomeParent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  padding: 0px;
-  margin-top: 40px;
-  gap: 40px;
+  justify-content: center;
   width: 100%;
-  height: 100%;
-  flex: none;
-  order: 2;
-  flex-grow: 1;
+  height: 900px;
+  gap:30px;
 `
 
 const ChartBox = styled.div`
@@ -26,13 +21,13 @@ const ChartBox = styled.div`
   box-shadow: 0 0 10px #00000029 !important;
   border-radius: 5px !important;
   margin: 0 !important;
-  width: 80% !important;
+  width: 75% !important;
   border: 1px solid #E6E7E9;
 
 `
 
 const OptionBox = styled.div`
-  width: 80%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,13 +35,12 @@ const OptionBox = styled.div`
 `
 
 const SettingBox = styled.div`
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  justify-content: space-around;
   width: 36%;
-  height: 380px;
+  height: 400px;
   background: #ffffff 0 0 no-repeat padding-box !important;
   box-shadow: 0 0 10px #00000029 !important;
   border-radius: 5px !important;
@@ -55,13 +49,13 @@ const SettingBox = styled.div`
 `
 
 const FileBox = styled.div`
-
+padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
   width: 26%;
-  height: 380px;
+  height: 400px;
   background: #ffffff 0 0 no-repeat padding-box !important;
   box-shadow: 0 0 10px #00000029 !important;
   border-radius: 5px !important;
@@ -70,13 +64,13 @@ const FileBox = styled.div`
 `
 
 const ReportBox = styled.div`
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   gap: 15px;
   width: 26%;
-  height: 380px;
+  height: 400px;
   background: #ffffff 0 0 no-repeat padding-box !important;
   box-shadow: 0 0 10px #00000029 !important;
   border-radius: 5px !important;
@@ -85,7 +79,7 @@ const ReportBox = styled.div`
 `
 
 const TitleStyled = styled.div`
-  width: 300px;
+  width: 90%;
   height: 30px;
   display: flex;
   flex-direction: row;
